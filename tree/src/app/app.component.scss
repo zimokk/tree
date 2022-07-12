@@ -1,0 +1,23 @@
+:host ::ng-deep [data-n-id='1'] rect {
+    fill: #750000;
+}
+
+::ng-deep {
+    #boc-avatar {
+        display: none;
+    }
+    .myTemplate {
+        .boc-edit-form-header {
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boc-edit-form-instruments {
+            display: none;
+        }
+    }
+    .boc-light {
+        background-color: #4c4c4c !important;
+    }
+}
